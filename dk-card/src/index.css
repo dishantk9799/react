@@ -49,6 +49,7 @@ body {
 .card h2 {
   font-size: 20px;
   margin: 10px 0 5px;
+  color: black;
 }
 
 .category {

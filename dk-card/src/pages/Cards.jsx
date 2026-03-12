@@ -1,11 +1,12 @@
 import React from 'react'
 
-function Cards({ img, price, name }) {
+function Cards({ img, price, name,category}) {
     return (
         <>
             <div class="card">
                 <img src={img} alt="" />
-                <p class="category">{name}</p>
+                <h2>{name}</h2>
+                <p class="category">{category}</p>
 
                 <h3 class="price">₹{price}</h3>
 
